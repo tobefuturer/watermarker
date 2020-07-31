@@ -27,7 +27,10 @@ optional arguments:
 ```
 
 # 效果
-`python marker.py -f ./input/test.png -m 添加水印`
+
+python marker.py -f ./input/test.png -m 添加水印
+
+python marker.py -f ./input/test.png -c '#000000' --opacity 0.1 --size 60 -m "水印内容"
 
 ![](https://github.com/2Dou/watermarker/raw/master/output/test.png)
 
